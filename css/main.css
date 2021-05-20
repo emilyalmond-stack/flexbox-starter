@@ -125,20 +125,32 @@ main {
 header,
 footer,
 main {
+  align-items: center;
+  display: flex;
+  justify-content: center;
 
 }
 
 .flex-container {
+  align-items: center;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  justify-content: space-between;
 
 }
 
 .flex-items {
-  color: #fff;
-  line-height: 1.5em;
-  font-size: 1.6em;
+  align-items: center;
   background-color: #f16059;
-  width: 30%;
+  color: #fff;
+  display: flex;
+  font-size: 1.6em;
   height: 200px;
+  justify-content: center;
+  line-height: 1.5em;
+  width: 30%;
+
 }
 
 /* ==========================================================================
